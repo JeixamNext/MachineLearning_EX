@@ -1,0 +1,13 @@
+Instalar Anaconda:
+
+- https://www.anaconda.com/
+- bash Anaconda-XXX-XX-XXX.sh
+- conda --version
+# poner el path(bashrc): export PATH=$PATH:/home/<user>/anaconda3/bin/
+- conda update anaconda 
+# usar script scan_version.py
+- conda update scikit-learn
+# librerias para aprendizaje profundo
+- conda install -c conda-forge tensorflow
+- pip install keras
+
