@@ -6,6 +6,7 @@ Instalar Anaconda:
 # poner el path(bashrc): export PATH=$PATH:/home/<user>/anaconda3/bin/
 - conda update anaconda 
 # usar script scan_version.py
+## conda install scipy/pip install scipy/yum install python3-scipy/python - pip install -U metplotlib / conda install pandas/ yum install python3-pandas 
 - conda update scikit-learn
 # librerias para aprendizaje profundo
 - conda install -c conda-forge tensorflow
