@@ -1,3 +1,5 @@
+base: https://github.com/jbagnato/machine-learning
+
 Instalar Anaconda:
 
 - https://www.anaconda.com/
@@ -11,4 +13,40 @@ Instalar Anaconda:
 # librerias para aprendizaje profundo
 - conda install -c conda-forge tensorflow
 - pip install keras
+
+EDA: analisis exploratorio de datos. es el paso inicial 
+
+EDA con Pandas:
+- cargar ejemplo de EDA.py
+
+
+Regresion lineal:
+- es un algoritmo de aprendizaje supervisado
+- indica la tendencia de un conjunto de datos
+- cargar ejemplo regresion lineal
+
+Regresion logistica:
+- es un algoritmo que se utiliza para clasificacion
+- cargar regresion logistica
+
+Arbol de decision:
+- son representaciones graficas de posibles soluciones a decisiones basadas en ciertas condiciones
+- es un algoritmo de aprendizaje supervisado
+- es de los mas utilizados
+- puede realizar tareas de clasificacion o regresion
+-- indice gini: se utiliza para atributos con valores continuos(precio de una casa)
+-- ganacia de informacion: se usa para atributos categoricos (hombre/mujer)
+
+random forest:
+- combinacion de varios arboles, es un modelo de aprendizaje supervisado 
+- usado para clasificacion
+- puede requerir mucho entrenaminto 
+- https://github.com/jbagnato/machine-learning/blob/master/Ejercicio_Random_Forest.ipynb
+
+# si el conjunto de entrenamiento y test da valores muy distintos es que el modelo de entrenamiento no funciona
+
+k-means:
+- algoritmo no supervisado se utiliza cuando tenemos muchos datos sin etiquetar 
+- es uo de los mas usados ara encontrar grupos ocultos
+- 
 
